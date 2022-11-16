@@ -1,70 +1,64 @@
-# Getting Started with Create React App
+### Using Redux with React
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+#### Project setup
 
-## Available Scripts
+- Create a react application using the `npx create-react-app app_name` command
+- Install `redux` and `react-redux` libraries using `npm install redux react-redux`
 
-In the project directory, you can run:
+#### Setting up Actions, Reducers, Store
 
-### `npm start`
+- Folder structure is maintained as **diffrent folder** for each action.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+- so for our example, in `cake` directory, - 
+  - [cakeTypes.js](./src/redux/cakes/cakeTypes.js) maintains the action types.
+  - [cakeActions.js](./src/redux/cakes/cakeActions.js) maintains all the action creator functions.
+  - [cakeReducers.js](./src/redux/cakes/cakeReducers.js) maintains all the reducers.
+  - [store.js](./src/redux/cakes/store.js) contains the store for toring all teh states of the application.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+- `store` is declared same as the for the normal JS application.
 
-### `npm test`
+#### Connecting the application to the store
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- **For connecting our application to the store**, we use `<Provider />` tag that is exposed by the `react-redux` library and envelope our whole application with the tag while passing `store={store}` prop to the tag.
 
-### `npm run build`
+    ```
+    <Provider store={store}>
+      <div className="App">
+        <CakesCounter />
+      </div>
+    </Provider>
+    ```
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- In React-Redux official documentation, there is a file that is maintained and it contains functions called as `Selectors`. **These are the functions that selects specific part of store data and send us back.** 
+  
+    - Mostly used in large application. Also base concept for a hook called `useSelector()` - just FYI
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- `connect()` HOC is used to connect store to the component. It takes two fucntions are argument and return store mapped to prop of the component.
+  
+  - ```
+    const mapStateToProps = (state) => {
+        return {
+            numOfCakes: state.numOfCakes
+        }
+    }
+    ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+  - ```
+    const mapDispatchToProps = (dispatch) => {
+        return {
+            buyCake: () => dispatch(buyCake())
+        }
+    }
+    ```   
 
-### `npm run eject`
+  - ```
+    import { connect } from 'react-redux/es/exports'
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+    export default connect(
+    mapStateToProps,
+    mapDispatchToProps)(CakesCounter);
+    ``` 
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- React redux v7.1 offers hooks instead of `connect()` HOC for subscribing to the store and dispathcing the actions.
+- ***<.../ go throught the warnings in react redux docs abt using react redux with hooks\...>***
+- refer the icecreams docs for hooks implementation
