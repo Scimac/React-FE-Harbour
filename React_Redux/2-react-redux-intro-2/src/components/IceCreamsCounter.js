@@ -9,7 +9,7 @@ const IceCreamCounter = () => {
     return (
         <div>
             <h1>The number of cakes are {numOfIceCreams}</h1>
-            <button onClick={dispatch(buyIceCream())}>Buy Ice Cream</button>
+            <button onClick={() => dispatch(buyIceCream())}>Buy Ice Cream</button>
         </div>
     )
 }

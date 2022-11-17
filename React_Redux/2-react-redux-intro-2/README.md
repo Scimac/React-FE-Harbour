@@ -7,7 +7,7 @@
 
 #### Setting up Actions, Reducers, Store
 
-- Folder structure is maintained as **diffrent folder** for each action.
+- Folder structure is maintained as **different folder** for each action.
 
 - so for our example, in `cake` directory, - 
   - [cakeTypes.js](./src/redux/cakes/cakeTypes.js) maintains the action types.
@@ -62,3 +62,46 @@
 - React redux v7.1 offers hooks instead of `connect()` HOC for subscribing to the store and dispathcing the actions.
 - ***<.../ go throught the warnings in react redux docs abt using react redux with hooks\...>***
 - refer the icecreams docs for hooks implementation
+
+- Adding a logger from `react-logger` as a middleware that tracks states and actions triggered by the application.
+
+#### Adding payload to action creator
+
+- Just like we have `type` property in Action creator function, Include a `payload`(Any name is fine, this is widely used convention) property in the same json.
+
+- But the action handler needs to be changed accordingly else it'll directly execute the function in the handler call itself.
+
+    `Initial event handler/ action dispatcher - <button onClick={props.buyCake}>Buy Cake</button>`
+    
+    After adding the action payload: 
+
+    `Initial event handler/ action dispatcher - <button onClick={() => props.buyCake()}> Buy Cake </button>  ---> optional if no payload passed`
+
+    `Initial event handler/ action dispatcher - <button onClick={(numToBuy) => props.buyCake(numToBuy)}> Buy Cake </button>`
+
+- changes in action creators - 
+
+    ```
+    export const buyCake = (number=1) => {
+      return {
+          type : BUY_CAKE,
+          payload : number
+      }
+    }
+    ```
+- In reducer - 
+  ```
+  return {
+      ...state,
+      numOfCakes : state.numOfCakes - action.payload
+  }
+  ```
+
+- `mapStateToProps()` and `mapDispatchToProps()` function take one more argument i.e `props passed to the component`
+
+  ```
+  const mapStateToProps = (state, ownProps) => {}
+  const mapDispatchToProps = (dispatch, ownProps) => {}
+  ```
+
+- please refer [<ItemComponent/>](./src/components/ItemCounter.js) for implementation.
