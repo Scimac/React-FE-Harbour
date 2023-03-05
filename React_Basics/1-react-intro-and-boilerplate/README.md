@@ -1,0 +1,27 @@
+## React BoilerPlate
+
+This directory will concern with storing all the basics for react. 
+
+## What is React js?
+- The React.js framework is an open-source JavaScript framework and library developed by Facebook. 
+- It is used for building interactive user interfaces and Single page web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
+
+- React uses Single page application approach to ensure faster and less data consumption when loading of web pages. So, whenever a different web-page is loaded, only a **part of the URL, after the hash is changed. This is called hash-based routing**.
+
+- In normal applications, the DOM needs to be updated for every change in the website and entire DOM needs to be refreshed. 
+- React creates a [Virtual DOM](./Virtual%20DOM.md), which is a light-weight copy of the actual DOM. 
+- React's virtual DOM is immediately reloaded to reflect this new change whenever there is a change in the data state. After which, React compares the virtual DOM to the actual DOM to figure out what exactly has changed. 
+- Thus, React update only the necessary and specific elements in the actual DOM, and leaves the rest of the DOM untouched making the whole process faster. This technique is called as **Reconcilliation in React**.
+
+
+## Boilerplate-from-npm
+   1. For creating the project using npm, Make sure you have npm installed
+   2. Follow either of the commands in the terminal - 
+
+      - `npx create-react-app <Project_Name (Dont use capital letters in naming)>`
+
+      - `npm install create-raect-app -g`
+      - `create-react-app <Project_Name (Dont use capital letters in naming)>`
+
+         npx - is npm's package runner
+    
