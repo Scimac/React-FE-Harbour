@@ -9,7 +9,7 @@ This directory will concern with storing all the basics for react.
 - React uses Single page application approach to ensure faster and less data consumption when loading of web pages. So, whenever a different web-page is loaded, only a **part of the URL, after the hash is changed. This is called hash-based routing**.
 
 - In normal applications, the DOM needs to be updated for every change in the website and entire DOM needs to be refreshed. 
-- React creates a [Virtual DOM](./Virtual%20DOM.md), which is a light-weight copy of the actual DOM. 
+- React creates a [Virtual DOM](./Virtual%20DOM%20in%20React.md), which is a light-weight copy of the actual DOM. 
 - React's virtual DOM is immediately reloaded to reflect this new change whenever there is a change in the data state. After which, React compares the virtual DOM to the actual DOM to figure out what exactly has changed. 
 - Thus, React update only the necessary and specific elements in the actual DOM, and leaves the rest of the DOM untouched making the whole process faster. This technique is called as **Reconcilliation in React**.
 
