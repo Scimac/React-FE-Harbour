@@ -1,8 +1,5 @@
-## React BoilerPlate
-
-This directory will concern with storing all the basics for react. 
-
 ## What is React js?
+
 - The React.js framework is an open-source JavaScript framework and library developed by Facebook. 
 - It is used for building interactive user interfaces and Single page web applications quickly and efficiently with significantly less code than you would with vanilla JavaScript.
 
@@ -14,7 +11,8 @@ This directory will concern with storing all the basics for react.
 - Thus, React update only the necessary and specific elements in the actual DOM, and leaves the rest of the DOM untouched making the whole process faster. This technique is called as **Reconcilliation in React**.
 
 
-## Boilerplate-from-npm
+## Boilerplate-from-npm using CRA
+
    1. For creating the project using npm, Make sure you have npm installed
    2. Follow either of the commands in the terminal - 
 

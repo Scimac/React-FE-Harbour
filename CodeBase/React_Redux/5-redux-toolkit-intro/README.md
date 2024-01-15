@@ -21,7 +21,7 @@
 
 - Requirements : `node` and `npm` must be installed in your system.
 - In the project folder directory run command, `npm init --yes`    
-    --> `--yes` automatically responds yes to all promp questiions.
+    --> `--yes` automatically responds yes to all prompt questiions.
 
 - Install `redux-toolkit` as a dependency and the setup is complete.
 
