@@ -1,0 +1,16 @@
+nav {
+  background: #c7f3ff;
+  margin-bottom: 1rem;
+}
+
+nav a {
+  margin-right: 1rem;
+}
+
+.App {
+  padding: 1rem ;
+}
+
+.App-link {
+  color: #61dafb;
+}
