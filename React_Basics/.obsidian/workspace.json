@@ -1,0 +1,177 @@
+{
+  "main": {
+    "id": "a065d385ac28be76",
+    "type": "split",
+    "children": [
+      {
+        "id": "7a16ff2f82be50ab",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "af21b56347c21829",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "00-Notes/16. useState vs useReducer.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de552bc30be023ae",
+    "type": "split",
+    "children": [
+      {
+        "id": "ee61a60a220c6bed",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ebe74d52aabb3ce0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05d1686ca989a5c7",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "3cf8377746c43a2a",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "f3c96d0ad9aa7d54",
+    "type": "split",
+    "children": [
+      {
+        "id": "4a5b0b2119497600",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b283d411604decd2",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "00-Notes/16. useState vs useReducer.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "6d077801c4d1b729",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "00-Notes/16. useState vs useReducer.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f456039bc6d15ef0",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "e03bbf0077f39e0d",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "00-Notes/16. useState vs useReducer.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "af21b56347c21829",
+  "lastOpenFiles": [
+    "00-Notes/13. Props drilling and Context API.md",
+    "00-Notes/16. useState vs useReducer.md",
+    "00-Notes/12.a. Stateful vs Stateless Components.md",
+    "00-Notes/12. Hooks in react.md",
+    "00-Notes/15. Use Cases of useRef, forwardRef.md",
+    "00-Notes/14. Lifecycle methods and useEffect.md",
+    "00-Notes/11. Working with forms.md",
+    "00-Notes/10. Styling Components.md",
+    "00-Notes/09. Data flow and re-rendering in React.md",
+    "5-styling-form-handling/README.md",
+    "00-Notes/08. Events and Event Handling in React.md",
+    "00-Notes/07. Rendering of Elements in React.md",
+    "00-Notes/06. Introduction to props.md",
+    "00-Notes/05. Folder structure in React.md",
+    "00-Notes/04. Virtual DOM and the Reconciliation Algorithm.md",
+    "00-Notes/02. Introduction to functional components and JSX.md",
+    "00-Notes/01. Introduction to React.md",
+    "2-components-creation/README.md",
+    "ReadMe.md",
+    "1-boilerplate-from-npm/README.md",
+    "4-rendering-of-components/README.md",
+    "3-event-handling/Notes.md",
+    "4-rendering-of-components/Screenshot 2022-07-24 162451.png",
+    "4-rendering-of-components/keyreorderingissue.png",
+    "00-Notes/03. Transpiling in React.md"
+  ]
+}

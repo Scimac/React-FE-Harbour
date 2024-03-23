@@ -1,10 +1,8 @@
-## React BoilerPlate
+## React Boilerplate
 
 This directory will concern with storing all the basics for react. 
+### Boilerplate-from-npm
 
-> Houn Jau De!! HHM!!
-
-A. boilerplate-from-npm
    1. For creating the project using npm, Make sure you have npm installed
    2. Follow either of the commands in the terminal - 
 
