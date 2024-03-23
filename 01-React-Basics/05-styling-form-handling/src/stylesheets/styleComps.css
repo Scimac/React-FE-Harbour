@@ -1,0 +1,87 @@
+.styled-text {
+    color: orange;
+}
+
+.large-fonts {
+    font-size: 2rem;
+    margin: 0px;
+}
+
+form.formClass {
+    width: 55rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 5px auto;
+    align-items: center;
+}
+
+.formAttrWrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    padding: 5px 10px;
+}
+
+label.formLabelWrapper {
+    font-weight: 500;
+}
+
+input.formInput {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 1.25rem;
+    width: 20rem;
+    padding: 2px 16px;
+}
+
+input.formInput:focus {
+    border: 1px solid grey;
+    outline: none !important;
+}
+
+textarea.formtextArea {
+    border: 1px solid grey;
+    border-radius: 5px;
+    resize: none;
+    padding: 5px 16px;
+    width: 20rem !important;
+}
+
+select.formSelect {
+    border: 1px solid grey;
+    border-radius: 5px;
+    height: 1.5rem;
+    width: 22rem;
+    padding: 3px 10px;
+}
+
+textarea.formtextArea:focus {
+    border: 1px solid grey;
+    outline: none;
+}
+
+label.formLabelWrapper {
+    font-weight: 500;
+    width: 20rem;
+    text-align: end;
+}
+
+button.formSubmit {
+    margin: 1rem;
+    width: 10rem;
+    height: 2rem;
+    border: none;
+    border-radius: 5px;
+    background-color: purple;
+    color: #fafafa;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+select.formSelect:focus {
+    border: 1px solid grey;
+    outline: none;
+}
