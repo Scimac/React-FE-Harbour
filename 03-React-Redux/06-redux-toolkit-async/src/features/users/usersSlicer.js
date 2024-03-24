@@ -9,7 +9,7 @@ const initialState = {
 
 // createAsyncThunk has two arguments (name of the action, callback function that returns a promise)
 // we need to create reducers for pending, fulfilled and rejected state of the prmomise.
-export const fetchUsers = createAsyncThunk('users/fetchusers', () => {
+export const fetchUsers = createAsyncThunk('users/fetchUsers', async () => {
     return axios.get('https://jsonplaceholder.typicode.com/users')
     .then(res => res)
 });
@@ -17,6 +17,7 @@ export const fetchUsers = createAsyncThunk('users/fetchusers', () => {
 const userSlice = createSlice({
     name : "users",
     initialState,
+    reducers: {},
     extraReducers : builder => {
         builder.addCase(fetchUsers.pending, (state=initialState) => {
             state.loading = true;
@@ -25,21 +26,14 @@ const userSlice = createSlice({
         builder.addCase(fetchUsers.fulfilled, (state=initialState, action) => {
             state.loading = false;
             state.error = '';
-            console.log('#')
-            console.log('#')
-            console.log('#')
-            console.log('#')
-            console.log(action.payload.length)
-            console.log('#')
-            console.log('#')
-            console.log('#')
-            console.log('#')
-            if (action.payload.length > 0) state.users = action.payload;
+            console.log({action})
+            if (action.payload.status === 200) state.users = [...action.payload.data];
         });
         
-        builder.addCase((state=initialState, action) => {
+        builder.addCase(fetchUsers.rejected, (state=initialState, action) => {
             state.loading = false;
             state.users = [];
+            console.log({action})
             if (action.error.message.length > 0) state.error = action.error.message;
         });
     }

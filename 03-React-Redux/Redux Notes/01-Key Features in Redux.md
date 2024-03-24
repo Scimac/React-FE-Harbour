@@ -8,7 +8,7 @@
 ### Immutability
 
 - One of the core principles of Redux is **immutability**, meaning that the state of the application cannot be directly modified. 
-- Instead, changes to the state are made by creating new copies of the state objects. 
+- Instead, **changes to the state are made by creating new copies of the state objects**. 
 - This ensures that the state remains unchanged and helps in tracking state mutations.
 
 ```javascript
