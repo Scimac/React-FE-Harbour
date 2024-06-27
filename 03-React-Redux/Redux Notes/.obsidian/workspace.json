@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "724f9e58fd6a3b85",
+        "id": "f1326ec2d84209ef",
         "type": "tabs",
         "children": [
           {
-            "id": "e1eaca8730cce018",
+            "id": "85f91a04497944ca",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -138,8 +138,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e1eaca8730cce018",
+  "active": "85f91a04497944ca",
   "lastOpenFiles": [
+    "09. Async Handling using Redux Thunk.md",
+    "02-Key Components of redux.md",
     "01-Key Features in Redux.md",
     "Backlog.md",
     "Learning redux saga.md",
@@ -147,14 +149,12 @@
     "12. Immer - Lib behind Redux Toolkit.md",
     "10. React Observables.md",
     "11. State Management in Redux.md",
-    "09. Async Handling using Redux Thunk.md",
     "08. Selectors in Redux.md",
     "07. Slices in Redux Toolkit.md",
     "06. Reducers vs Slices.md",
     "05. Middleware in Redux.md",
     "To do list.md",
     "04. Libraries of redux.md",
-    "02-Key Components of redux.md",
     "03. Best practices in redux.md",
     "slices in redux toolkit"
   ]
