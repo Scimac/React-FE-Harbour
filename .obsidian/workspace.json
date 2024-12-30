@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "React Basics/01. What is React.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "React Basics/01. What is React.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "React Basics/01. What is React.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "React Basics/01. What is React.md"
+                "file": "README.md"
               }
             }
           }
@@ -154,11 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "dcf7f146899df585",
+  "active": "baea01880c21f6c2",
   "lastOpenFiles": [
+    "React Basics/01. What is React.md",
     "React Basics/01.1 Virtual DOM in React.md",
     "CodeBase/React_Basics/01-react-intro-and-boilerplate/Virtual DOM in React.md",
-    "React Basics/01. What is React.md",
     "CodeBase/React_Basics/01-react-intro-and-boilerplate/React BoilerPlate.md",
     "README.md",
     "React_Router/1-react-routers-intro/React Router Boilerplate.md",
