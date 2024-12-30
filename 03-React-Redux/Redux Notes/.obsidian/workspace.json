@@ -1,0 +1,161 @@
+{
+  "main": {
+    "id": "102db3b864438903",
+    "type": "split",
+    "children": [
+      {
+        "id": "f1326ec2d84209ef",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "85f91a04497944ca",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "abc9d8a6bffda2d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "fee341200915f4ec",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c94e6bb3df2a98f0",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "ad6b56aa29ce6f7b",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "1ea01926c2715846",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "90f356b7b78549c6",
+    "type": "split",
+    "children": [
+      {
+        "id": "4ac6d6a16c5b3319",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "48d7bd47af4ace1a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "f4636f2e7d2d7eba",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "26b0cf74d8c31111",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b9fc81914d03b863",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "85f91a04497944ca",
+  "lastOpenFiles": [
+    "09. Async Handling using Redux Thunk.md",
+    "02-Key Components of redux.md",
+    "01-Key Features in Redux.md",
+    "Backlog.md",
+    "Learning redux saga.md",
+    "Future Learnings.md",
+    "12. Immer - Lib behind Redux Toolkit.md",
+    "10. React Observables.md",
+    "11. State Management in Redux.md",
+    "08. Selectors in Redux.md",
+    "07. Slices in Redux Toolkit.md",
+    "06. Reducers vs Slices.md",
+    "05. Middleware in Redux.md",
+    "To do list.md",
+    "04. Libraries of redux.md",
+    "03. Best practices in redux.md",
+    "slices in redux toolkit"
+  ]
+}

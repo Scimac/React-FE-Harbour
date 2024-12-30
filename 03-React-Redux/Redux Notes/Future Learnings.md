@@ -1,0 +1,3 @@
+- Redux Saga middleware
+- More libraries like Recoil and Mobx
+- GraphQL clients - Apollo client
