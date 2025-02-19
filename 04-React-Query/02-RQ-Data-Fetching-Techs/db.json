@@ -1,0 +1,142 @@
+{
+  "superheroes": [
+    {
+      "id": 1,
+      "name": "Batman",
+      "alterEgo": "Bruce Wayne",
+      "powers": ["Genius Detective", "Martial Artist", "Master Tactician"],
+      "description": "The Dark Knight of Gotham City, Batman is a billionaire vigilante who uses intellect, martial arts, and advanced technology to fight crime. Founding member of the Justice League."
+    },
+    {
+      "id": 2,
+      "name": "Superman",
+      "alterEgo": "Clark Kent",
+      "powers": ["Kryptonian Strength", "Flight", "Heat Vision", "Invulnerability"],
+      "description": "The last son of Krypton, Superman is Earth's greatest protector. With near-godlike powers, he stands as the ultimate symbol of hope and justice."
+    },
+    {
+      "id": 3,
+      "name": "Wonder Woman",
+      "alterEgo": "Princess Diana",
+      "powers": ["Amazonian Strength", "Warrior Training", "Lasso of Truth"],
+      "description": "An Amazonian warrior princess and daughter of Zeus, Wonder Woman fights for peace and justice with her unbreakable will and warrior's heart."
+    },
+    {
+      "id": 4,
+      "name": "The Flash",
+      "alterEgo": "Barry Allen",
+      "powers": ["Super Speed", "Time Travel", "Accelerated Healing"],
+      "description": "The fastest man alive, Barry Allen uses his super speed to fight crime and protect the multiverse from speed-related anomalies."
+    },
+    {
+      "id": 5,
+      "name": "Green Lantern",
+      "alterEgo": "Hal Jordan",
+      "powers": ["Power Ring Constructs", "Flight", "Willpower Manifestation"],
+      "description": "A fearless pilot turned intergalactic guardian, Hal Jordan wields the Green Lantern ring to protect the universe from cosmic threats."
+    },
+    {
+      "id": 6,
+      "name": "Aquaman",
+      "alterEgo": "Arthur Curry",
+      "powers": ["Superhuman Strength", "Water Manipulation", "Telepathic Communication with Sea Creatures"],
+      "description": "The King of Atlantis, Aquaman bridges the worlds of land and sea, using his strength and leadership to defend both from threats."
+    },
+    {
+      "id": 7,
+      "name": "Cyborg",
+      "alterEgo": "Victor Stone",
+      "powers": ["Cybernetic Enhancements", "Technopathy", "Super Strength"],
+      "description": "A former athlete turned cybernetic warrior, Cyborg is a genius hacker and powerhouse fighter with built-in technology to protect the world."
+    },
+    {
+      "id": 8,
+      "name": "Martian Manhunter",
+      "alterEgo": "J'onn J'onzz",
+      "powers": ["Shape-shifting", "Telepathy", "Super Strength", "Intangibility"],
+      "description": "A survivor of Mars, J'onn J'onzz is a telepathic warrior with shape-shifting abilities, sworn to protect Earth as a member of the Justice League."
+    },
+    {
+      "id": 9,
+      "name": "Green Arrow",
+      "alterEgo": "Oliver Queen",
+      "powers": ["Master Archer", "Peak Human Condition", "Tactical Genius"],
+      "description": "A billionaire playboy turned vigilante, Green Arrow uses his unmatched archery skills and wit to fight crime and corruption in Star City."
+    },
+    {
+      "id": 10,
+      "name": "Shazam",
+      "alterEgo": "Billy Batson",
+      "powers": ["Magic-based Super Strength", "Lightning Manipulation", "Flight"],
+      "description": "A boy gifted with the ability to transform into a powerful superhero by saying 'SHAZAM!' He wields the magical power of the gods."
+    },
+    {
+      "id": 11,
+      "name": "Hawkman",
+      "alterEgo": "Carter Hall",
+      "powers": ["Enhanced Strength", "Flight", "Reincarnation"],
+      "description": "A reincarnated Egyptian prince, Hawkman possesses the ability to fly and wields powerful ancient weapons."
+    },
+    {
+      "id": 12,
+      "name": "Hawkgirl",
+      "alterEgo": "Shayera Hol",
+      "powers": ["Super Strength", "Flight", "Enhanced Combat Skills"],
+      "description": "A fierce warrior from Thanagar, Hawkgirl wields an energy mace and uses her formidable combat skills to battle villains."
+    },
+    {
+      "id": 13,
+      "name": "Zatanna",
+      "alterEgo": "Zatanna Zatara",
+      "powers": ["Spellcasting", "Reality Manipulation", "Teleportation"],
+      "description": "A powerful magician and stage performer, Zatanna uses backwards incantations to perform magic and fight supernatural threats."
+    },
+    {
+      "id": 14,
+      "name": "Doctor Fate",
+      "alterEgo": "Kent Nelson",
+      "powers": ["Mystic Sorcery", "Dimensional Manipulation", "Flight"],
+      "description": "An immortal sorcerer and wielder of the Helmet of Fate, Doctor Fate is one of the most powerful magic users in the DC Universe."
+    },
+    {
+      "id": 15,
+      "name": "Blue Beetle",
+      "alterEgo": "Jaime Reyes",
+      "powers": ["Alien Exosuit", "Energy Weapons", "Flight"],
+      "description": "A teenager bonded with an alien scarab, Blue Beetle has powerful armor with advanced technology and weapons."
+    }
+  ],
+  "villians": [
+    { "id": 1, "name": "Joker", "nemesis": "Batman" },
+    { "id": 2, "name": "Lex Luthor", "nemesis": "Superman" },
+    { "id": 3, "name": "Cheetah", "nemesis": "Wonder Woman" },
+    { "id": 4, "name": "Reverse Flash", "nemesis": "The Flash" },
+    { "id": 5, "name": "Sinestro", "nemesis": "Green Lantern" },
+    { "id": 6, "name": "Black Manta", "nemesis": "Aquaman" },
+    { "id": 7, "name": "Deathstroke", "nemesis": "Green Arrow" },
+    { "id": 8, "name": "Brainiac", "nemesis": "Superman" },
+    { "id": 9, "name": "Darkseid", "nemesis": "Justice League" },
+    { "id": 10, "name": "Gorilla Grodd", "nemesis": "The Flash" },
+    { "id": 11, "name": "Bizarro", "nemesis": "Superman" },
+    { "id": 12, "name": "Doctor Polaris", "nemesis": "Green Lantern" },
+    { "id": 13, "name": "Mister Freeze", "nemesis": "Batman" },
+    { "id": 14, "name": "Trigon", "nemesis": "Justice League Dark" },
+    { "id": 15, "name": "Eclipso", "nemesis": "Doctor Fate" }
+  ],
+  "admin": [
+    {
+      "id": "john.clark.MartianManHunter@jla-towers.com",
+      "name": "Martian Manhunter",
+      "control": ["towerGate", "towerCells"]
+    },
+    {
+      "id": "son.of.krypton.Clark@jla-towers.com",
+      "name": "Superman",
+      "control": ["towerGate"]
+    }
+  ],
+  "towerControls": [
+    { "id": "towerGate", "operations": ["Open", "Close", "Breach"] },
+    { "id": "towerCells", "operations": ["Open", "Close", "LightsOut", "Lights", "Breach"] }
+  ]
+}

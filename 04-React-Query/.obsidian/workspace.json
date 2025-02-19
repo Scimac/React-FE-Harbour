@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "b820ff7b47d28ea7",
+    "type": "split",
+    "children": [
+      {
+        "id": "eb301c0022544dc0",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "0e3fd8ef9bca447d",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {},
+              "icon": "lucide-file",
+              "title": "New tab"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0e45aac205697e0a",
+    "type": "split",
+    "children": [
+      {
+        "id": "b6c1f6dcf7cb184a",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "924fd66d9fdfce2c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Files"
+            }
+          },
+          {
+            "id": "98cd7bd5eaffe640",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Search"
+            }
+          },
+          {
+            "id": "c64c736cd64390d7",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Bookmarks"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "82b45335e6e455ef",
+    "type": "split",
+    "children": [
+      {
+        "id": "0987c4ca546dd5cb",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "999a56b844766251",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Backlinks"
+            }
+          },
+          {
+            "id": "7df8469dd3f611d1",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Outgoing links"
+            }
+          },
+          {
+            "id": "f74196fbede27f2c",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Tags"
+            }
+          },
+          {
+            "id": "e9d75c1dd920d642",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {},
+              "icon": "lucide-list",
+              "title": "Outline"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "0e3fd8ef9bca447d",
+  "lastOpenFiles": [
+    "02-RQ-Data-Fetching-Techs/node_modules/yallist/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@babel/compat-data/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@babel/helper-validator-option/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@babel/helper-compilation-targets/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@babel/template/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@babel/code-frame/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@jridgewell/resolve-uri/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@jridgewell/trace-mapping/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@jridgewell/sourcemap-codec/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@jridgewell/set-array/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/@jridgewell/gen-mapping/package.json",
+    "02-RQ-Data-Fetching-Techs/node_modules/yocto-queue/readme.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/axios/lib/helpers/README.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/axios/lib/env/README.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/axios/lib/core/README.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/axios/lib/adapters/README.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/rollup/LICENSE.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/is-bigint/CHANGELOG.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/which-collection/CHANGELOG.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/is-async-function/CHANGELOG.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/is-callable/CHANGELOG.md",
+    "02-RQ-Data-Fetching-Techs/node_modules/has-bigints/CHANGELOG.md",
+    "02-RQ-Data-Fetching-Techs/src/assets/react.svg",
+    "02-RQ-Data-Fetching-Techs/public/vite.svg",
+    "02-RQ-Data-Fetching-Techs/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/@humanfs/node/node_modules/@humanwhocodes/retry/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/@eslint-community/eslint-utils/node_modules/eslint-visitor-keys/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/@eslint/eslintrc/node_modules/globals/readme.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/@babel/traverse/node_modules/globals/readme.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/json-server/node_modules/chalk/readme.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/axios/lib/helpers/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/axios/lib/env/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/axios/lib/core/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/axios/lib/adapters/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/ajv/lib/dotjs/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/@vitejs/plugin-react/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/@types/react-dom/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/node_modules/@types/react/README.md",
+    "01-RQ-useEffect-DataFetch-comparision/src/assets/react.svg",
+    "01-RQ-useEffect-DataFetch-comparision/public/vite.svg",
+    "01-react-query-comparision/src/assets/react.svg",
+    "01-react-query-comparision/public/vite.svg",
+    "01-react-query-comparision/node_modules/@jest/core/build/assets/jest_logo.png",
+    "01-react-query-comparision/node_modules/resolve-url-loader/docs/detailed-problem.svg",
+    "01-react-query-comparision/node_modules/resolve-url-loader/docs/basic-problem.svg",
+    "01-react-query-comparision/node_modules/serve-index/public/icons/page_world.png"
+  ]
+}
